@@ -91,6 +91,8 @@ Generates **From blocks** based on selection:
 - **Subsystem** → one From per Inport (Tag = Inport name)  
 - **Outport block** → one From per Outport (Tag = Outport name)  
 
+![Create From from Subsystem](./Demo/createFrom.gif)
+
 ---
 
 ## 🧠 Developer Notes
@@ -115,6 +117,7 @@ Developed by **MSD SISTEMAS**
  ┣ 📜 createGotoBlocks.m
  ┣ 📜 createFromBlocks.m
  ┣ 📜 README.md
+ ┣ 📜 LICENSE
  ┣ 📜 CoreFunctions
       ┣ 📜 setSignalNamesBasedOnSrcBlkFunction.m
       ┣ 📜 setSignalNamesBasedOnDestBlkFunction.m
