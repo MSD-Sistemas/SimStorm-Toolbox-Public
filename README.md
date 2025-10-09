@@ -20,7 +20,7 @@ savepath
 
 ---
 
-## 🚀 Usage
+## 🚀 First Usage
 
 After installation, you shall get a license.lic file from MSD SISTEMAS to enable the toolbox.
 For that, just send us an email to daniel.damasceno@msdconsult.com.br with the HASH code generated in MATLAB command window by running:
@@ -36,9 +36,6 @@ After receiving your license file, place it in the Toolbox root folder, typicall
 ```
 C:\MSD_Toolbox
 ```
-
-
-
 
 Now, you can start using the integrated into Simulink callbacks, model scripts, or custom context menus.
 
