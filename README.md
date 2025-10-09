@@ -64,6 +64,8 @@ Sets the signal name according to the **destination block**:
 ### 3. `fillTagFrom(inArgs)`
 Automatically fills the **Tag** of a *From* block using the corresponding *Goto* block tag.
 
+![Fill FROM with same name as GOTO](./Demo/fillFrom.gif)
+
 ---
 
 ### 4. `createOutputBlocks(inArgs)`
