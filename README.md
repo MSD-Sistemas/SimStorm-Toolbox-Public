@@ -48,12 +48,16 @@ Sets the signal name according to the **source block**:
 - **From blocks:** Signal name = Tag  
 - **Other blocks:** Signal name = Block name  
 
+![Sets the signal name from source](./Demo/setNameSrc.gif)
+
 ---
 
 ### 2. `setSignalNamesBasedOnDestBlk(inArgs)`
 Sets the signal name according to the **destination block**:
 - **Goto blocks:** Signal name = Tag  
 - **Other blocks:** Signal name = Block name  
+
+![Sets the signal name from destination](./Demo/setNameDst.gif)
 
 ---
 
@@ -66,6 +70,7 @@ Automatically fills the **Tag** of a *From* block using the corresponding *Goto*
 Creates new **Output blocks** according to the selected element:
 - For **Subsystems** → one Output per Outport (names inherited)  
 - For **Bus Selectors** → one Output per selected signal  
+![Create Outputs from Subsystem](./Demo/createOutputs.gif)
 
 ---
 
@@ -73,6 +78,8 @@ Creates new **Output blocks** according to the selected element:
 Creates new **Input blocks** according to the selected element:
 - For **Subsystems** → one Input per Inport  
 - For **Outport blocks** → one From block per output signal  
+
+![Create Inputs from Subsystem](./Demo/createInputs.gif)
 
 ---
 
