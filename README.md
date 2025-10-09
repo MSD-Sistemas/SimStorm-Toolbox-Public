@@ -7,13 +7,16 @@ These tools automate common tasks such as creating Goto/From blocks, generating 
 
 ## ⚙️ Installation
 
-1. **Extract** all the toolbox files to a folder of your choice.  
-2. **Add the main folder and all subfolders** to your MATLAB path:  
-   ```matlab
-   addpath(genpath('C:\path\to\MSD_SimulinkToolbox'))
-   savepath
-   ```
-3. (Optional) Restart MATLAB to ensure the functions are recognized.
+Just run following command in MATLAB command window:
+
+```matlab
+mkdir C:\MSD_Toolbox
+system('git clone https://github.com/MSD-Sistemas/MSD-Toolbox-Public C:\MSD_Toolbox')
+addpath(genpath('C:\MSD_Toolbox'))
+savepath
+```
+
+![Create Goto from Subsystem](./Demo/toolboxInstall.gif)
 
 ---
 
