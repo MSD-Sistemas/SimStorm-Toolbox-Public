@@ -22,14 +22,25 @@ savepath
 
 ## 🚀 Usage
 
-After installation, the functions can be called directly from MATLAB or integrated into Simulink callbacks, model scripts, or custom context menus.
+After installation, you shall get a license.lic file from MSD SISTEMAS to enable the toolbox.
+For that, just send us an email to daniel.damasceno@msdconsult.com.br with the HASH code generated in MATLAB command window by running:
 
-Each function expects an `inArgs` structure with the required Simulink block references and context information.
-
-Example:
 ```matlab
-createGotoBlocks(inArgs);
+MSD_license_2025
 ```
+
+You will get an information like this:
+![License Hash](./Demo/licenseHash.png)
+
+After receiving your license file, place it in the Toolbox root folder, typically located at:
+```
+C:\MSD_Toolbox
+```
+
+
+
+
+Now, you can start using the integrated into Simulink callbacks, model scripts, or custom context menus.
 
 ---
 
