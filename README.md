@@ -144,7 +144,13 @@ Developed by **MSD SISTEMAS**
       ┣ 📜 test_createGotoBlocks.m
       ┗ 📜 test_createFromBlocks.m
  ┗ 📜 Demo
-      ┗ 📜 createGoto.gif
+      ┣ 📜 createFrom.gif
+      ┣ 📜 fillFrom.gif
+      ┣ 📜 createGoto.gif
+      ┣ 📜 createInputs.gif
+      ┣ 📜 createOutputs.gif
+      ┣ 📜 setNameDst.gif
+      ┗ 📜 setNameSrc.gif
 ```
 
 ---
