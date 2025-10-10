@@ -104,6 +104,15 @@ Generates **From blocks** based on selection:
 
 ---
 
+## 👁️‍🗨️ Using Test Vector
+
+We provide test scripts for verify if the model is working as expected.
+
+A sample script is available in the `samples/testVector` folder.
+
+To run the tests, follow these steps shown in the video below:
+[Video how to use testVector](./Demo/UsingTestVector.mp4)
+
 ## 🧠 Developer Notes
 
 All functions delegate processing to corresponding internal implementations (e.g., `createFromBlocksFunction(inArgs)`), ensuring a clean separation between the Simulink interface and the logic layer.

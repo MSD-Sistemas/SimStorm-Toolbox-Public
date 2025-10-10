@@ -1,2 +1,5 @@
 *.lic
 env/**
+slprj/
+Reports/
+*.slxc
