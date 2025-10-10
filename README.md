@@ -152,6 +152,11 @@ Developed by **MSD SISTEMAS**
       ┣ 📜 test_createInputBlocks.m
       ┣ 📜 test_createGotoBlocks.m
       ┗ 📜 test_createFromBlocks.m
+ ┣ 📜 samples
+      ┗ 📜 testVector
+         ┣ 📜 runTestVector.m
+         ┣ 📜 sampleDesignR2022b.slx
+         ┗ 📜 testVector.xlsx
  ┗ 📜 Demo
       ┣ 📜 createFrom.gif
       ┣ 📜 fillFrom.gif
