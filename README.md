@@ -114,10 +114,10 @@ Generates **From blocks** based on selection:
 We also provide a set of testing scripts to support verification and validation.
 
 Our testing scripts include the following features:
-a. Test vector acquisition;
-a. Test Execution;
-b. Expected / Simulated results comparison; and
-c. Report Generation.
+1. Test vector data acquisition;
+2. Test Execution;
+3. Expected / Simulated results comparison; and
+4. Report Generation.
 
 A sample script is available in the `samples/testVector` folder.
 
