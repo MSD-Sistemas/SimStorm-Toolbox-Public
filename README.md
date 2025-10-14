@@ -1,13 +1,12 @@
-# MSD Simulink Toolbox
+# SimStorm Matlab/Simulink Toolbox
 
-The **MSD Simulink Toolbox** provides a set of productivity functions designed to streamline modeling workflows in **MATLAB Simulink**.  
-These tools automate common tasks such as creating Goto/From blocks, generating input/output interfaces, and assigning signal names intelligently — improving model clarity and consistency.
-
+The **SimStorm Toolbox** provides a set of functions designed to streamline the typical tasks on modeling activities in **MATLAB Simulink**.  
+These tools automate common tasks as testing (including test execution, reports creation and expected/simulated results comparison), assignment of signal names (to improve model clarity and consistency), signal routing (with Goto/From blocks) and creation of input/output interfaces.
 ---
 
-## ⚙️ Installation
+## ⚙️ Download and Installation
 
-Just run following command in MATLAB command window:
+Just run the following command in MATLAB command window:
 
 ```matlab
 mkdir C:\MSD_Toolbox
@@ -20,10 +19,10 @@ savepath
 
 ---
 
-## 🚀 First Usage
+## 🚀 First Use
 
-After installation, you shall get a license.lic file from MSD SISTEMAS to enable the toolbox.
-For that, just send us an email to daniel.damasceno@msdconsult.com.br with the HASH code generated in MATLAB command window by running:
+After installation, you will need a valid license.lic file from MSD SISTEMAS to enable the toolbox.
+To obtain a license file, just send an email to daniel.damasceno@msdconsult.com.br or evandson.dantas@msdconsult.com.br with the HASH code generated in MATLAB command window by running:
 
 ```matlab
 MSD_license_2025
@@ -32,12 +31,16 @@ MSD_license_2025
 You will get an information like this:
 ![License Hash](./Demo/licenseHash.png)
 
-After receiving your license file, place it in the Toolbox root folder, typically located at:
+After receiving your license file, place it into the Toolbox root folder, typically located at:
 ```
 C:\MSD_Toolbox
 ```
 
-Now, you can start using the integrated into Simulink callbacks, model scripts, or custom context menus.
+Now you can start to create your models faster using the SimStorm Toolbox.
+
+Just follow the examples below!
+
+And keep in mind you can also integrate these functions to your scripts and Simulink callbacks, or use them with a simple right-click to show the custom context menu.
 
 ---
 
@@ -104,9 +107,15 @@ Generates **From blocks** based on selection:
 
 ---
 
-## 👁️‍🗨️ Using Test Vector
+## 👁️‍🗨️ Testing Functions
 
-We provide test scripts for verify if the model is working as expected.
+We also provide a set of testing scripts to support verification and validation.
+
+Our testing scripts include the following features:
+a. Test vector acquisition;
+a. Test Execution;
+b. Expected / Simulated results comparison; and
+c. Report Generation.
 
 A sample script is available in the `samples/testVector` folder.
 
@@ -115,10 +124,11 @@ To run the tests, follow these steps shown in the video below:
 
 ## 🧠 Developer Notes
 
-All functions delegate processing to corresponding internal implementations (e.g., `createFromBlocksFunction(inArgs)`), ensuring a clean separation between the Simulink interface and the logic layer.
+All functions delegate processing to the corresponding internal implementations (e.g., `createFromBlocksFunction(inArgs)`), ensuring a clean separation between the Simulink interface and the logic layer.
 
 Developed by **MSD SISTEMAS**  
 📧 *daniel.damasceno@msdconsult.com.br*  
+📧 *evandson.dantas@msdconsult.com.br*  
 🧾 *Revision 1.0*
 
 ---
@@ -179,4 +189,4 @@ Developed by **MSD SISTEMAS**
 ## 🪪 License
 
 This toolbox is distributed under the [MSD License](LICENSE).  
-A request of lincense is required for commercial use.
+To remove the disclaimers, renew the license or extend the features, please contact daniel.damasceno@msdconsult.com.br or evandson.dantas@msdconsult.com.br.
